@@ -1,0 +1,56 @@
+html,
+		* {
+		    margin: 0;
+		    padding: 0 
+		}
+		
+		body {
+		    background-image: url(../img/bg.png);
+		    background-size:cover;
+		    /*background-size: 100px 100px; */
+		    background-repeat:no-repeat;
+		    background-position : center center;
+			font-family: "Arial","Microsoft YaHei","黑体","宋体",sans-serif;
+		}
+		
+		.demo {
+		    margin: 0 auto;
+		    width: 90%;
+		    height: 70%;
+		}
+		
+		h1 {
+		    margin: 150px auto 30px auto;
+		    text-align: center;
+		    font-family: 'Roboto';
+		}
+		#showtime{
+			z-index: 999;
+			position:relative;
+			color: red;
+			font-size: 80px;
+			text-align: center;
+			font-weight: 700;
+			margin: 5% 9% 0 9%;
+			
+		}
+		#container{
+			height: 300px;
+			color: red;	
+		}
+		@keyframes mymove
+            {
+                0%{
+                transform: scale(1);  /*开始为原始大小*/
+                }
+                25%{
+                    transform: scale(1.2); /*放大1.1倍*/
+                }
+                50%{
+                    transform: scale(1);
+                }
+                75%{
+                    transform: scale(1.2);
+                }
+
+            }
